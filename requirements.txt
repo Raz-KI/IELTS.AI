@@ -1,2 +1,5 @@
-flask==2.3.3
+gunicorn
+flask
+Flask
+
 groq==0.11.0
