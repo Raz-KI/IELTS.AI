@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALLMOCK.AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="{{ url_for('static', filename='123.png') }}" alt="ALLMOCK">
+            </div>
+            <ul class="nav-links">
+                <li><a href="">IELTS AI</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>BOOST YOUR SCORES WITH ALLMOCK.AI</h1>
+        <div class="button-container">
+            <a href="{{ url_for('speaking') }}" class="btn">SPEAKING</a>
+            <a href="{{ url_for('writing') }}" class="btn">WRITING</a>
+        </div>
+    </main>
+</body>
+</html>
